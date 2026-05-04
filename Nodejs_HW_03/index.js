@@ -1,17 +1,17 @@
 import fs from "fs";
 
-fs.mkdir("myFolder", (err) => {
+fs.writeFile("info.txt", "Node.js is awesome!", (err) => {
   if (err) {
-    console.log("Error: Folder is not created");
+    console.log("Error: File is not created");
   } else {
-    console.log("Folder is created successfully!");
+    console.log("File is created successfully!");
   }
 
-  fs.rmdir("myFolder", (err) => {
+  fs.readFile("info.txt", "utf8", (err, data) => {
     if (err) {
-      console.log("Error: Folder is not deleted");
+      console.log("Error: File is not readed");
     } else {
-      console.log("Folder is deleted successfully!");
+      console.log("File was readed successfully!", data);
     }
   });
 });

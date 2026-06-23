@@ -1,0 +1,14 @@
+{
+  "name": "homework_22",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ICH — Домашняя работа 22. Модули и пространства имён (namespaces).",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc && node dist/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

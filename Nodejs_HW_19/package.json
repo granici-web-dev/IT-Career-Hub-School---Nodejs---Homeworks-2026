@@ -1,0 +1,14 @@
+{
+  "name": "homework_19",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ICH — Домашняя работа 19. Стрелочные функции, интерфейсы/типы функций, обобщённые (generic) функции.",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

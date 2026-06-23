@@ -1,0 +1,14 @@
+{
+  "name": "homework_23",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ICH — Домашняя работа 23. Промисы, async/await, Promise.all, обработка ошибок.",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

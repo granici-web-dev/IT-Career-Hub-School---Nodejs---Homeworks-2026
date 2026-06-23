@@ -1,0 +1,14 @@
+{
+  "name": "homework_21",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ICH — Домашняя работа 21. Абстрактные классы и полиморфизм.",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

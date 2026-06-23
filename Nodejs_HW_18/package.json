@@ -1,0 +1,14 @@
+{
+  "name": "homework_18",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ICH — Домашняя работа 18. Объединение/пересечение типов, вложенные объекты, интерфейсы функций, наследование интерфейсов.",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

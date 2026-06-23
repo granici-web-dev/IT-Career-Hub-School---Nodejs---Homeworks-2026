@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket.io Chat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Socket.io Chat</h1>
+
+    <div id="inputArea">
+      <input type="text" id="messageInput" placeholder="Type your message..." />
+      <button id="sendButton">Send Message</button>
+    </div>
+
+    <div id="messages"></div>
+
+    <!-- Клиентская библиотека Socket.io -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

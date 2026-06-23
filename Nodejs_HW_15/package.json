@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_hw_15",
+  "version": "1.0.0",
+  "description": "Simple chat with Express and Socket.io",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.0",
+    "socket.io": "^4.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

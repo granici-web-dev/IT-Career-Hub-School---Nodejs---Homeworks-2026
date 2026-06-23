@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+h1 {
+  text-align: center;
+}
+#inputArea {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+#messageInput {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#messages {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px;
+  min-height: 200px;
+}
+.message {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}

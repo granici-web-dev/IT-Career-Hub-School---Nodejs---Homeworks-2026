@@ -1,0 +1,20 @@
+{
+  "name": "homework_24",
+  "version": "1.0.0",
+  "description": "ICH — Домашняя работа 24. Express-приложение на TypeScript с маршрутами GET и POST.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.0"
+  }
+}
